@@ -1,0 +1,37 @@
+.order-main-details {
+  .key {
+    font-size: smaller;
+    // letter-spacing: 1.2px;
+  }
+  .value {
+    font-size: medium;
+    font-weight: 500;
+    justify-content: start;
+    letter-spacing: 1.3px;
+    font-size: 14px;
+    color: #454545;
+  }
+}
+.payment-summary-card {
+  float: right;
+  background-color: #f6f6f6;
+  width: 32%;
+}
+.cut {
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  position: fixed;
+
+  top: 82%;
+  right: 27%;
+}
+
+@media (max-width: 768px) {
+  .payment-summary-card {
+    float: right;
+    margin-right: 10px;
+    width: 100%;
+  }
+}

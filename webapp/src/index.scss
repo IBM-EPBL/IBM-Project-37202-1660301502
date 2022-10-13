@@ -1,0 +1,35 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+$body-bg: #000;
+input:focus {
+  border: none !important;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  background-color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+input:focus {
+  border: none !important;
+}
+
+code {
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  color: #400835;
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow: scroll;
+  }
+}

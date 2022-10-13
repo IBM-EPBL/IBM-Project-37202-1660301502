@@ -1,0 +1,13 @@
+.sms-config-item-box{
+    border: 1px solid #D5D5D5;
+    // height: 30vh;
+    flex:auto;
+    
+}
+@media (max-width:768px) {
+    .sms-config-item-box{
+        // height: 30vh;
+        flex:100%; 
+    } 
+   
+}
