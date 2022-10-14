@@ -20,31 +20,32 @@ const AddProduct = () => {
                         <div className="col-md-2 col-6">
                             <CustomTextField placeholder={"Price"} />
                         </div>
-                        <div className="col-md-2 col-5 " style={{
-
-                        }}>
+                        <div className="col-md-2 col-5 ">
                             <CustomDropDown placeholder={"Unit"} hintText="Unit" items={["Last 7 Days", "Last 30 Days", "Last 3 Months"]}
                                 label="Date Range" />
                         </div>
-                        <div className="col-md-2 col-6">
-                            <CustomTextField placeholder={"Tax"} />
+                        <div className="col-md-2 col-5 ">
+                            <CustomDropDown placeholder={"Flat"} hintText="Flat" items={["Percentage", "Flat"]}
+                                label="Tax Type" />
                         </div>
-                        <div className="col-md-2 col-5">
-                            <CustomTextField placeholder={"Tax Type"} />
+                        <div className="col-md-2 col-6">
+                            <CustomTextField placeholder={"Tax"} type="number" />
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-2 col-6">
-                            <CustomTextField placeholder={"Category"} />
+                        <div className="col-md-2 col-5 ">
+                            <CustomDropDown placeholder={"Flat"} hintText="Flat" items={["Apparels", "Accessories", "Electronics", "Home Applicances"]}
+                                label="Category" />
                         </div>
-                        <div className="col-md-2 col-5">
+                        {/* <div className="col-md-2 col-5">
                             <CustomTextField placeholder={"Sub Category"} />
-                        </div>
+                        </div> */}
                         <div className="col-md-2 col-6">
-                            <CustomTextField placeholder={"Discount"} />
+                            <CustomTextField placeholder={"Discount"} type="number" />
                         </div>
-                        <div className="col-md-2 col-5">
-                            <CustomTextField placeholder={"Discount Type"} />
+                        <div className="col-md-2 col-5 ">
+                            <CustomDropDown placeholder={"Flat"} hintText="Flat" items={["Percentage", "Flat"]}
+                                label="Discount Type" />
                         </div>
                     </div>
                     <div className="row">

@@ -76,44 +76,10 @@ const DashBoard = () => {
                                 <Routes>
                                     <Route path="/" element={<Dashboard />} />
                                     <Route path="/login" element={<Login />} />
-                                    {/* <Route path="/profile" element={<Profile />} /> */}
                                     <Route path="/products/add" element={<AddProduct />} />
                                     <Route path="/products/list" element={<Products />} />
-                                    {/* <Route
-                                        path="/products/export-import"
-                                        element={<ImportProduct />}
-                                    />
-                                    <Route path="/coupons/add" element={<AddNewCoupon />} />
-                                    <Route path="/coupons/list" element={<Coupons />} />
-                                    <Route path="/categories/list" element={<Categories />} />
-                                    <Route path="/categories/add" element={<AddNewCategory />} />
-                                    <Route
-                                        path="/sub-categories/list"
-                                        element={<SubCategories />}
-                                    /> */}
-                                    {/* <Route path="/banners/list" element={<Banners />} />
-                                    <Route path="/banners/add" element={<AddNewBanner />} />
-                                    <Route path="/config/store" element={<StoreConfig />} />
-                                    <Route path="/config/system" element={<SystemConfig />} />
-                                    <Route path="/config/store/timings" element={<TimeSlots />} />
-                                    <Route path="/config/sms" element={<SMSConfig />} /> */}
                                     <Route path="/orders/list" element={<Orders />} />
-                                    {/* <Route
-                                        path="/products/reports"
-                                        element={<ProductReports />}
-                                    />
-                                    <Route
-                                        path="/orders/reports"
-                                        element={<SalesReports />}
-                                    /> */}
-                                    {/* <Route path="/branches/list" element={<Branches />} />
-                                    <Route path="/branches/add" element={<AddNewBranch />} />
-                                    <Route path="/report/sales" element={<SalesReports />} />
-                                    <Route path="/report/product" element={<ProductReports />} />
-                                    <Route path="/chat" element={<LiveChat />} />
-                                    <Route path="/pos/add" element={<AddPosOrder />} /> */}
                                     <Route path="/order/:id" element={<OrderDetails />} />
-                                    {/* <Route path="/e" element={<Notification />} /> */}
                                 </Routes>
                             </div>
                         </div>
