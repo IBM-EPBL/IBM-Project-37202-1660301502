@@ -2,3 +2,8 @@
 Inventory Managment System for Retailers
 
 Project accessible on http://15.206.195.59/
+
+Login Credentials
+
+username: admin
+password: 123456
